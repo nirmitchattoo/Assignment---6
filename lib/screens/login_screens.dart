@@ -49,7 +49,7 @@ class _LoginScreensState extends State<LoginScreens> {
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: ModalProgressHUD(
         color: Colors.black,
         inAsyncCall: _isLoading,
@@ -58,7 +58,7 @@ class _LoginScreensState extends State<LoginScreens> {
           height: size.height,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/back.png'),
+              image: AssetImage('assets/back.jpg'),
               fit: BoxFit.fill,
             ),
           ),
@@ -79,7 +79,8 @@ class _LoginScreensState extends State<LoginScreens> {
                   Text(
                     'Sqflite App',
                     style: TextStyle(
-                      color: kRedColor,
+                      color: Colors.white,
+                      //color: kRedColor,
                       fontSize: 45,
                     ),
                   ),

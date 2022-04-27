@@ -51,7 +51,7 @@ class _AllDataState extends State<AllData> {
         content: Text(
           'Successfully deleted a user',
           style: TextStyle(
-            color: Colors.black,
+            color: Colors.white,
             fontSize: 18,
           ),
         ),
@@ -90,12 +90,12 @@ class _AllDataState extends State<AllData> {
           ),
         ),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Container(
         height: size.height,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/back.png'),
+            image: AssetImage('assets/back.jpg'),
             fit: BoxFit.fill,
           ),
         ),

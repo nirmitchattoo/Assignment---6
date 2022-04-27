@@ -41,7 +41,7 @@ class _MyTextInputState extends State<MyTextInput> {
               height: 54,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(24 / 3),
-                color: Colors.black,
+                color: Colors.green,
                 border: Border.all(color: Colors.grey.shade700),
               ),
             ),
